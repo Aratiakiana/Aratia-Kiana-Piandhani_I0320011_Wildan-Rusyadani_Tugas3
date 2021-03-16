@@ -3,7 +3,7 @@ tup2 = ('abc', 'xyz')
 
 # Aksi seperti dibawah ini tidak bisa dilakukan pada tuple python
 # Karena memang nilai pada tuple python tidak bisa diubah
-# tup1[0] - 100;
+# tup1[0] = 100;
 
 # Jadi, buatlah tuple baru sebagai berikut
 
