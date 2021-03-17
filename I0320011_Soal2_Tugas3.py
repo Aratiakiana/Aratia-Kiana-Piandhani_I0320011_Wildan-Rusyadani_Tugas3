@@ -7,3 +7,5 @@ dict['Sosmed2'] = 'ig:gmssrv_'
 del dict['Makanan1']
 del dict['Makanan2']
 dict['Hobi4'] = 'Bersepeda'
+
+print(dict)
