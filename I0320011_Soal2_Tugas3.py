@@ -1,11 +1,17 @@
 # Membuat dictionary pada python
-dict = {'Nama':'Ara','Hobi1':'Memasak','Hobi2':'Menonton film','Hobi3':'Jalan-jalan','Sosmed1':'line:aratiakp_','Sosmed2':'ig:aratiakp_','Sosmed3':'twitter:cutieeberryy','Lagu1':'To the bone','Lagu2':'Blue Jeans','Lagu3':'Heartbreak Anniversary','Makanan1':'Mie', 'Makanan2':'Seblak','Makanan3':'Nasi Goreng'}
+dict = {'Nama':'Ara','Hobi 1':'Memasak','Hobi 2':'Menonton film','Hobi 3':'Jalan-jalan','Sosmed 1':'line:aratiakp_'
+,'Sosmed 2':'ig:aratiakp_','Sosmed 3':'twitter:cutieeberryy','Lagu 1':'To the bone','Lagu 2':'Blue Jeans'
+,'Lagu 3':'Heartbreak Anniversary','Makanan 1':'Mie', 'Makanan 2':'Seblak','Makanan 3':'Nasi Goreng'}
 
-# Mengubah salah satu hobi dan sosmed, menghapus 2 makanan, dan menambah 1 hobi
-dict['Hobi2'] = 'Mendengarkan musik'
-dict['Sosmed2'] = 'ig:gmssrv_'
-del dict['Makanan1']
-del dict['Makanan2']
-dict['Hobi4'] = 'Bersepeda'
+# Mengubah salah satu hobi dan sosial media
+dict['Hobi 2'] = 'Mendengarkan musik'
+dict['Sosmed 2'] = 'ig:gmssrv_'
+
+# Menghapus 2 makanan kesukaan
+del dict['Makanan 1']
+del dict['Makanan 2']
+
+# Menambah satu hobi
+dict['Hobi 4'] = 'Bersepeda'
 
 print(dict)
